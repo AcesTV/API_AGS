@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1fulU/0JWhGcFAq/vgqH62tDzFeFPS76S2QRDngTgK4pehDx5ao+Xi3X+XH7T3bxnGUXU7eEd81VFfU4A76gw==",
+  "dgSpecHash": "N5M89tI7u+OtqVALD8tCFE6sIwLdH+Xk6JsbIoYykHZBUAOGATp81dfE/uwLH7XVmdQCFdZnSEysHIGcxLL86w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\ApiAgs.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\ApiAgs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

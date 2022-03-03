@@ -15,7 +15,9 @@ namespace ApiAgs.Models
     {
         public int Id { get; set; }
 
-        public int Client { get; set; } 
+        public int Client { get; set; }
+        [Required(ErrorMessage = "Reference produit commande requis")]
+        [MaxLength(50)]
         public string Product_Reference { get; set; }
         public int Quantity { get; set; }
         public int State { get; set; }

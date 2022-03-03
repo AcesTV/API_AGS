@@ -5,7 +5,7 @@ namespace ApiAgs.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class OrdersController
+    public class OrderController
     {
         [HttpGet(Name = "GetOrders")]
         public IEnumerable<Order> Get()

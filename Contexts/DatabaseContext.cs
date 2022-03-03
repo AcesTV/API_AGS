@@ -19,6 +19,8 @@ namespace ApiAgs.Contexts
         #region DBsets
         public DbSet<Family>? Families { get; set; }
         public DbSet<Order>? Orders { get; set; }
+        public DbSet<Product>? Products { get; set; }
+        public DbSet<Provider_detail>? Provider_details { get; set; }
        
 
         #endregion

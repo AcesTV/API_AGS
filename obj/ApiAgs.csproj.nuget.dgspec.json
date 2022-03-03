@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\ApiAgs.csproj": {}
+    "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\ApiAgs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\ApiAgs.csproj": {
+    "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\ApiAgs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\ApiAgs.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\ApiAgs.csproj",
         "projectName": "ApiAgs",
-        "projectPath": "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\ApiAgs.csproj",
+        "projectPath": "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\ApiAgs.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\source\\repos\\ApiAgs\\ApiAgs\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\source\\repos\\CUBE API AGS\\ApiAgs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
