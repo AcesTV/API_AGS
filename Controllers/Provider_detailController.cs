@@ -15,7 +15,7 @@ namespace ApiAgs.Controllers
             return provider_detail.GetAll();
         }
 
-        [HttpGet("{id}", Name = "GetProduct")]
+        [HttpGet("{id}", Name = "GetProvider_detail")]
         public Provider_detail GetByID(int id)
         {
 
