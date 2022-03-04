@@ -21,6 +21,9 @@ namespace ApiAgs.Contexts
         public DbSet<Order>? Orders { get; set; }
         public DbSet<Product>? Products { get; set; }
         public DbSet<Provider_detail>? Provider_details { get; set; }
+        public DbSet<Provider_global>? Provider_globals { get; set; }
+        public DbSet<Role>? Roles { get; set; }
+        public DbSet<User>? Users { get; set; }
        
 
         #endregion
