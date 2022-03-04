@@ -61,7 +61,76 @@ namespace ApiAgs.Contexts
             });
             #endregion
 
+            #region Orders
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Client).IsRequired();
+                entity.Property(e => e.Product_Reference).IsRequired();
+                entity.Property(e => e.Quantity).IsRequired();
+                entity.Property(e => e.State).IsRequired();
+            });
+            #endregion
 
+            #region Products
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired();
+                entity.Property(e => e.Quantity).IsRequired();
+                entity.Property(e => e.Purchase_Price).IsRequired();
+                entity.Property(e => e.Selling_Price).IsRequired();
+                entity.Property(e => e.Domain_Name).IsRequired();
+                entity.Property(e => e.Family).IsRequired();
+                entity.Property(e => e.Year).IsRequired();
+                entity.Property(e => e.Provider).IsRequired();
+                entity.Property(e => e.Product_Reference).IsRequired();
+
+            });
+            #endregion
+
+            #region Provider_details
+            modelBuilder.Entity<Provider_detail>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id_Provider).IsRequired();
+                entity.Property(e => e.Product_Reference).IsRequired();
+
+            });
+            #endregion
+
+            #region Provider_globals
+            modelBuilder.Entity<Provider_global>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id_Provider).IsRequired();
+                entity.Property(e => e.Name).IsRequired();
+
+            });
+            #endregion
+
+            #region Roles
+            modelBuilder.Entity<Role>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Role_Name).IsRequired();
+
+            });
+            #endregion
+
+            #region Users
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.First_Name).IsRequired();
+                entity.Property(e => e.Last_Name).IsRequired();
+                entity.Property(e => e.Email_Adress).IsRequired();
+                entity.Property(e => e.Password).IsRequired();
+                entity.Property(e => e.Role).IsRequired();
+                entity.Property(e => e.Creation_Date).IsRequired();
+
+            });
+            #endregion
         }
 
         internal object Entity(Family families)
